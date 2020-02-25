@@ -1,0 +1,14 @@
+[package]
+name = "ftp_client"
+version = "0.1.0"
+authors = ["Nicholas McDaniel <nickmcdaniel00@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = "0.8.1"
+gio = "0.8.1"
+glib = "0.9.3"
+
+ftp_lib = { git = "https://github.com/NicksWorld/ftp_lib" }

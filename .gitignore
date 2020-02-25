@@ -1,0 +1,17 @@
+# Remove compiled executables
+/target/
+
+# Remove waste-of-space file containing all crate versions
+Cargo.lock
+
+# Remove backups from rustfmt
+**/*.rs.bk
+
+#Added by cargo
+
+/target
+
+# Emacs junk
+*~
+\#*\#
+.\#*
