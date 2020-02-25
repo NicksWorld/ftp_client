@@ -26,7 +26,7 @@ impl FtpClientApplication {
 			 gtk::get_minor_version()
 		);
 		
-		let glade_src = include_str!("/home/nmcdaniel/ftp_client.glade");
+		let glade_src = include_str!("ftp_client.glade");
 		let builder = Builder::new_from_string(glade_src);
 		
 		// Get an instance to and set up the components
