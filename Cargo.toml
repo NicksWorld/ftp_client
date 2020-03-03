@@ -12,3 +12,4 @@ gio = "0.8.1"
 glib = "0.9.3"
 
 ftp_lib = { git = "https://github.com/NicksWorld/ftp_lib" }
+tftp_lib = { path = "../tftp_lib" }
